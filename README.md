@@ -1,4 +1,4 @@
-## 🎬 CineTV – Flutter Tabanlı Film & Dizi Platformu
+## 🎬 CineTV – Flutter + Supabase Tabanlı Film & Dizi Platformu
 
 CineTV, modern streaming deneyimini mobil dünyaya taşıyan **Flutter + Supabase** tabanlı bir hibrit eğlence platformudur. Gerçek zamanlı veritabanı, kullanıcı oturumu, favoriler yönetimi, kişisel öneri algoritması ve gelişmiş arama filtresi gibi özelliklerle tam bir **Streaming Panel** olarak geliştirilmiştir.
 
