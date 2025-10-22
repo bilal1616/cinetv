@@ -67,34 +67,42 @@ lib/
 ## 🖼 Uygulama Ekran Görüntüleri
 
 ## CineTv Banner
+
 <img src="assets/screenshoot/banner.png" width="250">
 
+## Splash
+<img src="assets/screenshoot/splash.png" width="250">
+
 ## Login/Register
+
 <img src="assets/screenshoot/login.png" width="250">
 <img src="assets/screenshoot/login1.png" width="250">
 <img src="assets/screenshoot/register.png" width="250">
 <img src="assets/screenshoot/register1.png" width="250">
 
 ## Filmler
+
 <img src="assets/screenshoot/Filmler.png" width="250">
 <img src="assets/screenshoot/Film_Detay.png" width="250">
 <img src="assets/screenshoot/Film_Ara.png" width="250">
 
 ## Diziler
+
 <img src="assets/screenshoot/Diziler.png" width="250">
 <img src="assets/screenshoot/Dizi_Detay.png" width="250">
 <img src="assets/screenshoot/Dizi_Ara.png" width="250">
 
 ## Profil
+
 <img src="assets/screenshoot/Profil.png" width="250">
 <img src="assets/screenshoot/profil1.png" width="250">
 
 ## Favori
+
 <img src="assets/screenshoot/Favorilerim.png" width="250">
 <img src="assets/screenshoot/Favorilerim1.png" width="250">
 <img src="assets/screenshoot/Favorilerim2.png" width="250">
 <img src="assets/screenshoot/Favorilerim3.png" width="250">
-
 
 ---
 
@@ -136,23 +144,28 @@ Kodların bütünlüğü korunmalı, yeniden dağıtım veya ticari platformda k
 ## Kurulum Şeması
 
 ## ⚙️ Kurulum Adımları
+
 1️⃣ Bağımlılıkları Yükle
 flutter pub get
 
 ## Ortam Değişkenlerini Ayarla
+
 cp .env.example .env
 
 .env dosyasına kendi Supabase, TMDB ve diğer API anahtarlarını doldurun.
 Her anahtar doğru formatta olmalıdır (tırnaksız, direkt değer).
 
 ## Supabase Projesini Bağla (isteğe bağlı, backend ile çalışmak isteyenler için)
+
 supabase init
 supabase link --project-ref <YOUR_PROJECT_REF>
 
 ## Veritabanı Şemasını Aktar
+
 supabase db push
 
 Bu komut, titles, favorites, videos, episodes gibi tabloları otomatik oluşturur.
 
 ## Projeyi Çalıştır
+
 flutter run
