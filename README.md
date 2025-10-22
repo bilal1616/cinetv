@@ -66,24 +66,30 @@ lib/
 
 ## 🖼 Uygulama Ekran Görüntüleri
 
-## Login/Register - Filmler/Diziler/Profil - Arama Ekranları - Favori Ekranları
-
-## Banner
+## CineTv Banner
 <img src="assets/screenshoot/banner.png" width="250">
 
-## Ekran Görüntüleri
+## Login/Register
 <img src="assets/screenshoot/login.png" width="250">
 <img src="assets/screenshoot/login1.png" width="250">
 <img src="assets/screenshoot/register.png" width="250">
 <img src="assets/screenshoot/register1.png" width="250">
+
+## Filmler
 <img src="assets/screenshoot/Filmler.png" width="250">
 <img src="assets/screenshoot/Film_Detay.png" width="250">
 <img src="assets/screenshoot/Film_Ara.png" width="250">
+
+## Diziler
 <img src="assets/screenshoot/Diziler.png" width="250">
 <img src="assets/screenshoot/Dizi_Detay.png" width="250">
 <img src="assets/screenshoot/Dizi_Ara.png" width="250">
+
+## Profil
 <img src="assets/screenshoot/Profil.png" width="250">
 <img src="assets/screenshoot/profil1.png" width="250">
+
+## Favori
 <img src="assets/screenshoot/Favorilerim.png" width="250">
 <img src="assets/screenshoot/Favorilerim1.png" width="250">
 <img src="assets/screenshoot/Favorilerim2.png" width="250">
