@@ -70,7 +70,7 @@ lib/
 
 <img src="assets/screenshoot/banner.png" width="250">
 
-## Splash
+## Splash Screen
 
 <img src="assets/screenshoot/splash.png" width="250">
 
