@@ -1,4 +1,4 @@
-# 🎬 CineTV – Flutter Tabanlı Film & Dizi Platformu
+## 🎬 CineTV – Flutter Tabanlı Film & Dizi Platformu
 
 CineTV, modern streaming deneyimini mobil dünyaya taşıyan **Flutter + Supabase** tabanlı bir hibrit eğlence platformudur. Gerçek zamanlı veritabanı, kullanıcı oturumu, favoriler yönetimi, kişisel öneri algoritması ve gelişmiş arama filtresi gibi özelliklerle tam bir **Streaming Panel** olarak geliştirilmiştir.
 
@@ -68,10 +68,10 @@ lib/
 
 ## Login/Register - Filmler/Diziler/Profil - Arama Ekranları - Favori Ekranları
 
-**Banner**
+## Banner
 <img src="assets/screenshoot/banner.png" width="250">
 
-**Ekran Görüntüleri**
+## Ekran Görüntüleri
 <img src="assets/screenshoot/login.png" width="250">
 <img src="assets/screenshoot/login1.png" width="250">
 <img src="assets/screenshoot/register.png" width="250">
@@ -129,24 +129,24 @@ Kodların bütünlüğü korunmalı, yeniden dağıtım veya ticari platformda k
 
 ## Kurulum Şeması
 
-**⚙️ Kurulum Adımları**
+## ⚙️ Kurulum Adımları
 1️⃣ Bağımlılıkları Yükle
 flutter pub get
 
-**Ortam Değişkenlerini Ayarla**
+## Ortam Değişkenlerini Ayarla
 cp .env.example .env
 
 .env dosyasına kendi Supabase, TMDB ve diğer API anahtarlarını doldurun.
 Her anahtar doğru formatta olmalıdır (tırnaksız, direkt değer).
 
-**Supabase Projesini Bağla (isteğe bağlı, backend ile çalışmak isteyenler için)**
+## Supabase Projesini Bağla (isteğe bağlı, backend ile çalışmak isteyenler için)
 supabase init
 supabase link --project-ref <YOUR_PROJECT_REF>
 
-**Veritabanı Şemasını Aktar**
+## Veritabanı Şemasını Aktar
 supabase db push
 
 Bu komut, titles, favorites, videos, episodes gibi tabloları otomatik oluşturur.
 
-**Projeyi Çalıştır**
+## Projeyi Çalıştır
 flutter run
