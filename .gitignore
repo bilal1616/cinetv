@@ -1,0 +1,88 @@
+###############################
+# 🔒 SENSITIVE & ENV FILES
+###############################
+# Ortam değişkenleri
+.env
+.env.*
+# API token içerebilecek özel dosyalar
+lib/core/env.dart
+lib/data/datasources/remote/tmdb_api.dart
+
+###############################
+# 📦 FLUTTER & DART BUILD
+###############################
+.build/
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+pubspec.lock
+.migrate_working_dir/
+
+###############################
+# 🧪 TEST / DEBUG / LOG
+###############################
+*.log
+*.map.json
+*.symbols
+coverage/
+test_outputs/
+
+###############################
+# 📱 PLATFORM-SPECIFIC
+###############################
+# iOS
+**/ios/Flutter/.last_build_id
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/App.framework
+ios/Flutter/ephemeral/
+
+# Android
+android/.gradle/
+android/app/debug
+android/app/profile
+android/app/release
+android/local.properties
+android/key.properties
+
+###############################
+# 🧠 IDE & EDITOR CONFIGS
+###############################
+# IntelliJ / Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# Diğer editörler
+.atom/
+.history/
+
+###############################
+# 💻 SYSTEM / TEMP FILES
+###############################
+.DS_Store
+*.class
+*.log
+*.pyc
+*.swp
+.svn/
+.swiftpm/
+
+###############################
+# 📁 PUB & CACHE
+###############################
+.pub/
+.pub-cache/
+
+###############################
+# 📄 DOCS & API
+###############################
+**/doc/api/
